@@ -94,23 +94,28 @@
     opacity: 0;
     height: 0;
     padding: 1rem;
-    background-color: #035AA6;
+    background-color: #FFF;
 
 }
 
 .menu ul {
     list-style: none;
+    padding-left: 20px;
+
 
 
 }
 
+.menu ul li {
+    padding: 1px;
+}
 
 ul li a {
     text-decoration: none;
     /* padding: 1rem; */
     color: var(--dark-gray, #7F7F7F);
     text-align: center;
-    font-family: Outfit;
+    font-family: 'Outfit', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -786,6 +791,7 @@ header li {
     /* gap: 14rem; */
     width: 1215px;
     flex-direction: row;
+    box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.10);
 
 }
 
@@ -1054,7 +1060,7 @@ footer .bottom-footer p {
     box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.05);
     background-color: #FFF;
     font-weight: bold;
-   
+
 
     transition: transform 0.3s ease;
     padding: 1.5rem;
@@ -1138,4 +1144,278 @@ footer .bottom-footer p {
 .swiper-slide-next {
     transform: scale(0.8);
     z-index: 0;
+}
+
+
+
+
+/* ============================================================responsive work css starts here============================================== */
+
+
+@media only screen and (max-width: 1250px) {
+
+    .hero-main .side-img-hero {
+        width: 381px;
+        height: auto;
+    }
+
+    .hero-main {
+        padding-left: 60px;
+    }
+
+
+    .side-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+
+    }
+
+
+    .hero-main h1 {
+        font-size: 70px;
+    }
+
+    .hero-main h4 {
+        font-size: 23px;
+    }
+
+    .hero-main .hero-main-text p {
+        padding-top: 2px;
+    }
+
+    .features-main-box {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .quality-main-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-main-box .product-boxes {
+        justify-content: center;
+    }
+
+
+
+    footer .middle-footer {
+        flex-wrap: wrap;
+    }
+
+
+    .contact-us-main .contact-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+    .contact-us-main .contact-box .contact-forms-1 {
+        flex-basis: 100%;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 799px) {
+    .navbar .nav-list {
+        display: none;
+    }
+
+    .menu {
+        padding: 0;
+    }
+
+    .get-consult {
+        display: none;
+    }
+
+    .burger-btn {
+        margin-left: 330px;
+    }
+
+
+
+    .subscribe-box .input-box input {
+        width: 100%;
+    }
+
+
+    .subscribe-box .subs-text h2 {
+        font-size: 24px;
+    }
+
+
+
+    .subscribe-box .subs-text p {
+        font-size: 15px;
+    }
+
+
+    .subscribe-box {
+
+
+        padding: 20px 40px;
+        width: 650px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+
+    }
+
+    .subscribe-box .input-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .subscribe-box .input-box button {
+        width: 100%;
+    }
+
+
+
+
+    .side-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+
+    .hero-main {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+
+    .about-main-box .about-text-box .play-btn {
+        translate: 0px 10px;
+    }
+
+    .caraousal-box>p {
+        padding: 12px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 410px) {
+
+    .navbar .main-logo {
+        width: 153px;
+        height: 40px;
+
+    }
+
+    .hero-main h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+
+
+    .hero-main .side-img-hero {
+        width: 150px;
+        height: auto;
+    }
+
+
+    .hero-main h4 {
+        font-size: 14px;
+    }
+
+    .hero-main p {
+        font-size: 10px;
+
+
+    }
+
+
+    .white-line {
+        width: 30px;
+    }
+
+    .hero-main .get-consult-home {
+        padding: 5px 10px;
+        width: 108px;
+        font-size: 12px;
+       
+    }
+    .hero-main .hero-main-text a{
+        margin-top: 0;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+    .burger-btn {
+        margin-left: 165px;
+    }
+
+    .contact-us-main .contact-box img {
+        width: 310px;
+    }
+
+
+    .contact-us-main .contact-box .contact-form input{
+        padding: 10px 15px;
+
+    }
+
+
+    .contact-us-main .contact-box .contact-form textarea{
+        padding: 10px 15px;
+    }
+
+    .subscribe-box {
+
+
+        width: 345px;
+    }
+
+    .subscribe-box .subs-text h2 {
+        font-size: 18px;
+    }
+
+
+    .subscribe-box .subs-text p {
+        font-size: 12px;
+    }
+
+
+
+
+    .subscribe-box .input-box button {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
