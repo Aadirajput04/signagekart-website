@@ -30,7 +30,7 @@
                         <p> High efficiency </p>
                     </li>
                 </ul>
-                <a href="#"> Buy Now  ></a>
+                <a href="./products.php"> Buy Now  ></a>
                 <img class="side-abs" src="./imgs/product-side-img.png" alt="">
 
 
@@ -58,7 +58,7 @@
                         <p> High efficiency </p>
                     </li>
                 </ul>
-                <a href="#"> Buy Now  ></a>
+                <a href="./products.php"> Buy Now  ></a>
 
                 <img class="side-abs" src="./imgs/product-side-img.png" alt="">
             </div>
@@ -85,7 +85,7 @@
                         <p>Lifespan >30000 hours </p>
                     </li>
                 </ul>
-                <a href="#"> Buy Now  ></a>
+                <a href="./products.php"> Buy Now  ></a>
                 <img class="side-abs" src="./imgs/product-side-img.png" alt="">
 
             </div>

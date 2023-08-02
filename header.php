@@ -26,7 +26,7 @@ function isCurrentPage($pageName)
         </ul>
 
 
-        <p> <a class="get-consult" href="#">Get Quote >></a></p>
+        <p> <a class="get-consult" href="./contact-us.php">Get Quote >></a></p>
 
     </nav>
     <div class="menu hidden page-width">

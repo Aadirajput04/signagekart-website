@@ -177,7 +177,7 @@ header li {
     height: 6px;
 
     background-color: transparent;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     right: 50%;
     transform: translate(50%);
     transition: all 0.3s ease-in-out;
@@ -185,7 +185,7 @@ header li {
 
 .active-nav {
     color: #035AA6 !important;
-    font-weight: 600 !important;
+
 
 }
 
@@ -206,7 +206,7 @@ header li {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 30px;
     padding-left: 100px;
     padding-right: 60px;
@@ -509,6 +509,8 @@ header li {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 
@@ -555,12 +557,13 @@ header li {
     padding: 20px;
 }
 
-.product-main-box .product-boxes .product-detail .side-abs{
+.product-main-box .product-boxes .product-detail .side-abs {
     width: 272px;
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
 .product-main-box .product-boxes .product-detail ul {
     padding-left: 25px;
 }
@@ -624,7 +627,7 @@ header li {
 .product-boxes .product-box .product-detail ul li {
 
     font-family: 'Outfit', sans-serif;
-    font-size: 26px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -645,4 +648,494 @@ header li {
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+}
+
+/* ============================================================contact-section starts here===================================================== */
+
+.contact-us-main {
+    /* padding-top: 100px; */
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact-us-main .head-text h3 {
+    color: var(--primery, #035AA6);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact-us-main .contact-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+}
+
+.contact-us-main .contact-box img {
+    width: 600px;
+}
+
+
+
+
+.contact-us-main .contact-box .contact-forms-1 {
+    flex-basis: 50%;
+}
+
+.contact-us-main .contact-box .contact-form input {
+    padding: 22px 32px;
+
+    color: var(--dark-gray, #7F7F7F);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+.contact-us-main .contact-box .contact-form textarea {
+    padding: 22px 32px;
+    color: var(--dark-gray, #7F7F7F);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.contact-us-main .contact-box .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.contact-form {
+    /* width: 687px; */
+    /* height: 630px; */
+    margin: 0 auto;
+    padding: 20px 0;
+
+
+}
+
+/* Style for form fields */
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+
+    width: 100%;
+}
+
+.contact-form button {
+    width: auto;
+    max-width: 150px;
+    padding: 12px 28px;
+    background-color: #035AA6;
+
+    border: none;
+    cursor: pointer;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+/* ===================================================subscribe box css starts here====================================== */
+
+
+
+.middle-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.subscribe-box {
+
+    background-color: #FFF;
+    translate: 0 -122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 65px;
+    /* gap: 14rem; */
+    width: 1215px;
+    flex-direction: row;
+
+}
+
+.subscribe-box .subs-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.subscribe-box .subs-text h2 {
+    color: var(--primery, #035AA6);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.subscribe-box .subs-text p {
+    color: var(--dark-gray, #7F7F7F);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+.subscribe-box .input-box input {
+    width: 290px;
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: #F6F8FA;
+
+    border: none;
+
+    color: black;
+    outline: none;
+    transition: all .3s ease;
+
+}
+
+.subscribe-box .input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subscribe-box .input-box button {
+    padding: 12px 35px;
+    text-align: center;
+
+
+    text-transform: uppercase;
+    border: none;
+    background-color: #035AA6;
+    display: flex;
+    justify-content: center;
+    color: var(--white, #FFF);
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ===================================================================footer================================================ */
+
+footer {
+    background: var(--black, #333);
+    position: relative;
+
+}
+
+
+footer .middle-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    padding-bottom: 30px;
+    /* padding-top: 140px; */
+}
+
+footer .middle-footer .footer-logo {
+
+    width: 162px;
+    height: 115px;
+}
+
+footer .middle-footer h4 {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 2px solid #fff;
+    width: 133px;
+}
+
+footer .middle-footer li {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .middle-footer li a {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .middle-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+footer .bottom-footer {
+    border-top: 1px solid#606060;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+footer .bottom-footer p {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+/* =====================================================================head-lable-section starts here------------------------- */
+
+
+
+.main-lable {
+    background: url(../imgs/head-lable-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 10px; */
+    padding-bottom: 15px;
+}
+
+.main-lable .inner-lable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-lable h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-lable .white-line-2 {
+    width: 100px;
+}
+
+
+/* =============================================================testimonial section start here==================================== */
+
+
+.caraousal-box {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caraousal-box h5 {
+    color: var(--primery, #035AA6);
+    font-family: 'Outfit', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.caraousal-box h4 {
+    color: var(--primery, #035AA6);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.caraousal-box p {
+    color: var(--dark-gray, #7F7F7F);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 60px;
+    /* height: 300px; */
+
+    /* margin: 20px auto; */
+}
+
+@media (min-width: 400px) {
+
+    .swiper-container {
+        min-width: 400px;
+
+    }
+
+}
+
+
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 24px;
+    position: relative;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.05);
+    background-color: #FFF;
+    font-weight: bold;
+   
+
+    transition: transform 0.3s ease;
+    padding: 1.5rem;
+}
+
+.swiper-slide .about-first-line {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+}
+
+/*   
+  .swiper-slide .about-first-line img {
+    position: absolute;
+    right: 0;
+    top: -4rem;
+  }
+   */
+.swiper-slide .about-first-line .comma {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.swiper-slide .about-first-line h3 {
+    color: var(--primery, #035AA6);
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.swiper-slide .about-first-line span {
+    color: var(--primery, #035AA6);
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.swiper-slide p {
+    color: var(--dark-gray, #7F7F7F);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: capitalize;
+}
+
+
+/* .yellow-slide {
+    background-color: yellow;
+  }
+  
+  .green-slide {
+    background-color: green;
+  }
+  
+  .red-slide {
+    background-color: red;
+  } */
+
+
+.swiper-slide-active.yellow-slide,
+.swiper-slide-active.green-slide,
+.swiper-slide-active.red-slide {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+    transform: scale(0.8);
+    z-index: 0;
 }
