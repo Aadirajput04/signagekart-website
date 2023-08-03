@@ -33,20 +33,20 @@
         <div class="Others">
             <h4>Others</h4>
             <ul>
-                <li>User FAQs</li>
-                <li>Contact Us </li>
-                <li>Legal</li>
-                <li>Privacy Policy</li>
-                <li>Terms and Conditions</li>
+                <li> <a href=""> User FAQs </a> </li>
+                <li> <a href=""> Contact Us </a> </li>
+                <li><a href=""> Legal </a> </li>
+                <li> <a href=""> Privacy Policy </a> </li>
+                <li> <a href=""> Terms and Conditions </a> </li>
             </ul>
 
         </div>
         <div class="Products">
             <h4>Products</h4>
             <ul>
-                <li>Media player</li>
-                <li>Signage board </li>
-                <li>Holograms</li>
+                <li> <a href=""> Media player </a> </li>
+                <li> <a href=""> Signage board </a> </li>
+                <li> <a href="">Holograms </a> </li>
 
             </ul>
 

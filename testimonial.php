@@ -1,6 +1,6 @@
 <div class="caraousal-box page-width">
     <h5>What People Says</h5>
-    <img src="./imgs/blue-middle-linedot.png" alt="">
+    <img class="middle-line-dot" src="./imgs/blue-middle-linedot.png" alt="">
     <h4>Testimonial</h4>
     <p>Although we don't want to brag about ourselves, we don't mind when our clients  <br> do it for us. See what some of our
         most prosperous clients have to say about their interactions with us.</p>
@@ -155,8 +155,19 @@
         },
         breakpoints: {
             // When window width is >= 400px
-            400: {
+            350: {
                 slidesPerView: 1,
+
+                slideChangeTransitionStart: function () {
+                const activeSlide = document.querySelector('.swiper-slide-active');
+                const prevSlide = activeSlide.previousElementSibling || activeSlide.nextElementSibling;
+                const nextSlide = activeSlide.nextElementSibling || activeSlide.previousElementSibling;
+
+                activeSlide.style.transform = 'scale(1.1)';
+                prevSlide.style.transform = 'scale(0.7)';
+                nextSlide.style.transform = 'scale(0.7)';
+            },
+                
             },
             // When window width is >= 768px
             768: {
@@ -178,7 +189,7 @@
     });
     function autoChangeSlide() {
         swiper.slideNext();
-        setTimeout(autoChangeSlide, 40000); // Repeat the function after 4 seconds
+        setTimeout(autoChangeSlide, 4000); // Repeat the function after 4 seconds
     }
 
     // Automatically start the autoChangeSlide function after 0.2 seconds (happens only once)
