@@ -155,7 +155,7 @@
         },
         breakpoints: {
             // When window width is >= 400px
-            350: {
+            340: {
                 slidesPerView: 1,
 
                 slideChangeTransitionStart: function () {
