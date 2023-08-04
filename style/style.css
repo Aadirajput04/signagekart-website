@@ -480,8 +480,7 @@ header li {
 }
 
 .quality-main-box .quality-box {
-    max-width: 337px;
-    max-height: 265px;
+    min-width: 482px;
     padding: 15px;
     background-color: #FFF;
     display: flex;
@@ -528,10 +527,10 @@ header li {
     padding-top: 10px;
     color: var(--dark-gray, #7F7F7F);
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 25px;
     /* 105.556% */
 }
 
