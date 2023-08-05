@@ -1479,6 +1479,9 @@ footer .bottom-footer p {
         height: 40px;
 
     }
+    .play-btn{
+        display: none;
+    }
 
     .hero-main h1 {
         font-size: 20px;
