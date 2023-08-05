@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/barba.js"></script>
+
     <link rel="stylesheet" href="./style/style.css">
     <title>HOME</title>
 </head>
 
-<body>
+<body transition-style="in:wipe:bottom-right">
+    
 
     <?php
     

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 
-
+@import "https://unpkg.com/transition-style";
 
 
 * {
@@ -480,7 +480,7 @@ header li {
 }
 
 .quality-main-box .quality-box {
-    min-width: 482px;
+    min-width: 300px;
     padding: 15px;
     background-color: #FFF;
     display: flex;
@@ -1913,3 +1913,6 @@ footer .bottom-footer p {
 
 
 }
+
+
+

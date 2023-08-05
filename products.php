@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>products</title>
 </head>
-<body>
+<body transition-style="in:wipe:bottom-right">
 
     <?php
     

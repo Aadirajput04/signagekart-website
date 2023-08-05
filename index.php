@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   
+
 
     <link rel="stylesheet" href="./style/style.css">
     <title>HOME</title>
 </head>
 
-<body>
+<body transition-style="in:wipe:bottom-right">
 
     <?php
     
@@ -111,9 +113,11 @@
     include "footer.php";
 
     ?>
-
+  </div>
+</div>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
