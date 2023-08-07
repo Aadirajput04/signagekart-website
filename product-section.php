@@ -111,3 +111,32 @@
 
 
 </section>
+
+<script>
+
+    gsap.from(".product-head-text", {
+        scrollTrigger: {
+            trigger: ".product-head-text",
+            scroller: "body"
+          
+        },
+        delay: 0.5,
+        opacity: 0,
+        duration: 1,
+        x: -80
+       
+    })
+
+    gsap.from(".product-boxes-child", {
+        scrollTrigger: {
+            trigger: ".product-boxes-child",
+            scroller: "body"
+          
+        },
+        delay: 0.5,
+        opacity: 0,
+        duration: 1,
+        x: 80
+       
+    })
+</script>

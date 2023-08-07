@@ -2,10 +2,11 @@
     <h5>What People Says</h5>
     <img class="middle-line-dot" src="./imgs/blue-middle-linedot.png" alt="">
     <h4>Testimonial</h4>
-    <p>Although we don't want to brag about ourselves, we don't mind when our clients  <br> do it for us. See what some of our
+    <p>Although we don't want to brag about ourselves, we don't mind when our clients <br> do it for us. See what some
+        of our
         most prosperous clients have to say about their interactions with us.</p>
 
-    <div class="swiper-container">  
+    <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide yellow-slide">
                 <div class="about-first-line">
@@ -140,7 +141,44 @@
     </div>
 </div>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
+
+    gsap.from(".caraousal-box", {
+        scrollTrigger: {
+            trigger: ".swiper-container",
+            scroller: "body"
+
+        },
+        delay: 0.7,
+        opacity: 0,
+        duration: 1,
+        y: 50
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     var swiper = new Swiper('.swiper-container', {
         // Optional parameters
         direction: 'horizontal',
@@ -159,15 +197,15 @@
                 slidesPerView: 1,
 
                 slideChangeTransitionStart: function () {
-                const activeSlide = document.querySelector('.swiper-slide-active');
-                const prevSlide = activeSlide.previousElementSibling || activeSlide.nextElementSibling;
-                const nextSlide = activeSlide.nextElementSibling || activeSlide.previousElementSibling;
+                    const activeSlide = document.querySelector('.swiper-slide-active');
+                    const prevSlide = activeSlide.previousElementSibling || activeSlide.nextElementSibling;
+                    const nextSlide = activeSlide.nextElementSibling || activeSlide.previousElementSibling;
 
-                activeSlide.style.transform = 'scale(1.1)';
-                prevSlide.style.transform = 'scale(0.7)';
-                nextSlide.style.transform = 'scale(0.7)';
-            },
-                
+                    activeSlide.style.transform = 'scale(1.1)';
+                    prevSlide.style.transform = 'scale(0.7)';
+                    nextSlide.style.transform = 'scale(0.7)';
+                },
+
             },
             // When window width is >= 768px
             768: {

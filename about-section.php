@@ -15,7 +15,7 @@
                 keep our client happy, satisfied and caredfor with each transaction</p>
 
 
-            <a href="#"> Know More >></a>
+            <a class="know-more-btn" href="#"> Know More >></a>
 
 
         </div>
@@ -33,3 +33,33 @@
 
 
 </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+    gsap.from(".about-text-box", {
+        scrollTrigger: {
+            trigger: ".play-btn",
+            scroller: "body"
+        },
+        delay: 0.4,
+        opacity: 0,
+        duration: 1,
+        x: -80
+    })
+    
+    gsap.from(".play-btn", {
+        scrollTrigger: {
+            trigger: ".play-btn",
+            scroller: "body"
+        },
+        delay: 0.4,
+        opacity: 0,
+        duration: 1,
+        x: 90
+    })
+
+</script>

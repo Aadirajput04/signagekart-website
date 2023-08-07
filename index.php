@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-   
+
 
 
     <link rel="stylesheet" href="./style/style.css">
@@ -35,7 +35,7 @@
             <h1>Best Innovative Product Providers</h1>
             <p>Comprehensive, client-centric and affordable import and export solutions for electronic display and other
                 products.</p>
-            <a class="get-consult-home" href="./contact-us.php">Get Quote >></a>
+            <a class="get-consult-home btn-ani" href="./contact-us.php">Get Quote >></a>
         </div>
 
         <img class="side-img-hero" src="./imgs/hero-main-side-img.png" alt="">
@@ -60,7 +60,7 @@
 
 
 
-<?php
+    <?php
     
     include "quality-section.php";
 
@@ -70,7 +70,7 @@
 
 
 
-<?php
+    <?php
     
     include "product-section.php";
 
@@ -85,7 +85,7 @@
 
 
 
-<?php
+    <?php
     
     include "testimonial.php";
 
@@ -98,7 +98,7 @@
 
 
 
-<?php
+    <?php
     
     include "contact-section.php";
 
@@ -108,16 +108,37 @@
 
 
 
-<?php
+    <?php
     
     include "footer.php";
 
     ?>
-  </div>
-</div>
+    </div>
+    </div>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
 
+            gsap.from(".side-img-hero", {
+                delay: 0.4,
+                opacity: 0,
+                duration: 1,
+                x: 60
+            })
+        
+            
+            gsap.from(".hero-main-text", {
+                delay: 0.4,
+                opacity: 0,
+                duration: 1,
+                x: -60
+            })
+        
+        
+        </script>
 </body>
 
-</html>
+</html> 

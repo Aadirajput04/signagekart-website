@@ -11,6 +11,12 @@
 
 
 }
+    
+
+
+
+
+
 
 
 .page-width {
@@ -473,14 +479,14 @@ header li {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 80px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 
 
 
 }
 
 .quality-main-box .quality-box {
-    min-width: 300px;
+    min-width: 274px;
     padding: 15px;
     background-color: #FFF;
     display: flex;
@@ -1021,8 +1027,8 @@ footer .bottom-footer p {
 
 .caraousal-box {
     display: flex;
-    padding-top: 80px;
-    padding-bottom: 150px;
+    padding-top: 20px;
+    padding-bottom: 120px;
     overflow: hidden;
     text-align: center;
     flex-direction: column;
@@ -1479,7 +1485,8 @@ footer .bottom-footer p {
         height: 40px;
 
     }
-    .play-btn{
+
+    .play-btn {
         display: none;
     }
 
@@ -1913,6 +1920,3 @@ footer .bottom-footer p {
 
 
 }
-
-
-
