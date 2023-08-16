@@ -11,12 +11,6 @@
 
 
 }
-    
-
-
-
-
-
 
 
 .page-width {
@@ -216,23 +210,33 @@ header li {
 
 
 
+
+.ractangle-1 {
+    position: absolute;
+    left: -80px;
+    top: -120px;
+}
+
+
+
 .hero-main {
     display: flex;
     flex-direction: row;
     /* gap: 120px; */
-    background: url(../imgs/hero-home.png);
+    background: url(../imgs/Hero\ main\ Image-111.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /* padding-top: 10px; */
-    padding-bottom: 30px;
-    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 140px;
+    padding-left: 180px;
     padding-right: 60px;
     align-items: center;
     /* height: 80vh; */
-
+    position: relative;
     justify-content: space-between;
 }
+
 
 .hero-main .hero-main-text {
     display: flex;
@@ -249,8 +253,8 @@ header li {
     max-width: 195px;
     align-items: center;
 
-    color: #fff;
-    background-color: #035AA6;
+    color: #035AA6;
+    background-color:#fff ;
     /* border: 1px solid #D1B06B; */
 
     font-family: 'Outfit', sans-serif;
@@ -266,18 +270,18 @@ header li {
 }
 
 .hero-main h4 {
-    color: var(--white, #FFF);
+    color: #FFF;
     font-family: 'Outfit', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .hero-main h1 {
-    color: var(--white, #FFF);
+    color: #FFF;
     font-family: 'Outfit', sans-serif;
-    font-size: 82px;
+    font-size: 86px;
     font-style: normal;
     font-weight: 700;
     line-height: 100px;
@@ -285,11 +289,11 @@ header li {
 }
 
 .hero-main p {
-    color: var(--light-gray, #F7F7F7);
+    color: #FFF;
     font-family: 'Outfit', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -310,8 +314,8 @@ header li {
 } */
 
 .hero-main .side-img-hero {
-    width: 575px;
-    height: auto;
+    width: 371px;
+    height: 520px;
 }
 
 
@@ -373,7 +377,7 @@ header li {
 
 
 .about-main-box {
-    background: url(../imgs/about-us-bg.png);
+    background: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -389,12 +393,12 @@ header li {
 .about-main-box .about-text-box {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 65px;
     background-color: #FFF;
     padding-left: 35px;
     padding-top: 35px;
     padding-bottom: 35px;
-    max-width: 725px;
+    /* max-width: 725px; */
     align-items: center;
     justify-content: center;
 }

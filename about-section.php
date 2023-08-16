@@ -2,6 +2,16 @@
 
 
     <div class="about-text-box">
+
+<img src="./imgs/Group 1000002224.png" alt="">
+
+
+
+
+
+
+
+
         <div class="left-about-text-box">
             <h3>Who We Are</h3>
             <img class="blue-line-dot" src="./imgs/blue-left-line.png" alt="">
@@ -21,12 +31,6 @@
         </div>
 
 
-
-
-        <div class="play-btn">
-
-            <img src="./imgs/video-play-btn.png" alt="">
-        </div>
 
     </div>
 

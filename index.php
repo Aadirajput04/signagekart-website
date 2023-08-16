@@ -30,15 +30,15 @@
 
         <div class="hero-main-text">
 
-
-            <h4>Welcome to Signagekart <img src="./imgs/white-line.png" alt="" class="white-line"></h4>
+<img src="./imgs/Group 21111111111111111111111111.png" class="ractangle-1" alt="">
+            <h4>Welcome to Signagekart </h4>
             <h1>Best Innovative Product Providers</h1>
             <p>Comprehensive, client-centric and affordable import and export solutions for electronic display and other
                 products.</p>
             <a class="get-consult-home btn-ani" href="./contact-us.php">Get Quote >></a>
         </div>
 
-        <img class="side-img-hero" src="./imgs/hero-main-side-img.png" alt="">
+        <img class="side-img-hero" src="./imgs/HEROMAIN-IMG-1111111.png" alt="">
 
 
 

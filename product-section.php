@@ -136,7 +136,7 @@
         delay: 0.5,
         opacity: 0,
         duration: 1,
-        x: 80
+        x:80
        
     })
 </script>
