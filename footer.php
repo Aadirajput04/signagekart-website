@@ -1,19 +1,5 @@
 <footer class="page-width side-padding">
-    <div class="middle-box">
-        <div class="main-subscribe-1">
-            <div class="subscribe-box">
-
-                <div class="subs-text">
-                    <h2>Subscribe Our Newsletter</h2>
-                    <p>We don’t send spam so don’t worry.</p>
-                </div>
-                <div class="input-box">
-                    <input type="email" placeholder="Email ID" name="email">
-                    <button class="button-1 hover">subscribe>></button>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 
     <div class="middle-footer">
 

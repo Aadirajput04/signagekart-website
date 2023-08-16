@@ -254,7 +254,7 @@ header li {
     align-items: center;
 
     color: #035AA6;
-    background-color:#fff ;
+    background-color: #fff;
     /* border: 1px solid #D1B06B; */
 
     font-family: 'Outfit', sans-serif;
@@ -377,7 +377,7 @@ header li {
 
 
 .about-main-box {
-    background: #fff;
+    background: url(../imgs/about-home-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -385,7 +385,7 @@ header li {
     display: flex;
     flex-direction: row;
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 100px;
 
 }
 
@@ -394,10 +394,10 @@ header li {
     display: flex;
     flex-direction: row;
     gap: 65px;
-    background-color: #FFF;
-    padding-left: 35px;
+
+    /* padding-left: 35px; */
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
     /* max-width: 725px; */
     align-items: center;
     justify-content: center;
@@ -474,77 +474,392 @@ header li {
     line-height: normal;
 }
 
-/* ========================================================================quality-section starts here=========================================== */
 
 
-.quality-main-box {
-    background-color: #f2f7fa;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 80px;
-    /* margin-bottom: 80px; */
 
 
+
+
+
+
+
+
+
+/* ======================================holo-home-section started==================================================== */
+
+.hologram-main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 100px;
 
 }
 
-.quality-main-box .quality-box {
-    min-width: 274px;
-    padding: 15px;
-    background-color: #FFF;
+.right-holo-img {
+    position: relative;
+}
+
+
+.hologram-main .holo-main-img {
+    width: 900px;
+    height: auto;
+}
+
+
+.left-holo-info {
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.30);
+    /* gap: 20px; */
 }
 
-.quality-main-box .quality-box .q-layer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #EFEFEF;
-
-}
-
-.quality-main-box .quality-box .q-layer img {
-    width: 60px;
-}
-
-
-.quality-child-box {
-
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-
-
-
-
-}
-
-.quality-main-box .quality-box .q-layer h4 {
-    color: #035AA6;
+.left-holo-info h4 {
+    color: var(--black, #333);
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+.left-holo-info .holo-first,
+.holo-second,
+.holo-third {
+
+    padding: 20px;
+}
+
+
+.left-holo-info p {
+    color: var(--dark-gray, #7F7F7F);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 25px;
+    /* 105.556% */
+}
+
+.left-holo-info a {
+    color: var(--primery, #035AA6);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: none;
+    padding: 12px 35px;
+    width: 100%;
+    border: 1px solid var(--primery, #035AA6);
+    background: var(--white, #FFF);
+
 }
 
-.quality-main-box .quality-box p {
-    padding-top: 10px;
+
+.left-holo-info .bg-blue {
+    background-color: #035AA6 !important;
+    color: #FFF !important;
+
+}
+
+.view-more-btn {
+    position: absolute;
+    right: 0;
+    bottom: 14px;
+    padding: 40px 40px;
+
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: var(--primery, #035AA6);
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    background-color: #FFF;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+/* ======================================holo-home-section end==================================================== */
+
+/* ========================================================================quality-section starts here=========================================== */
+
+.services-main {
+    margin-top: 60px;
+    margin-bottom: 130px;
+    background: #F4F4F4;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.services-child-left h5 {
+    color: var(--primery, #035AA6);
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.services-child-left h2 {
+    color: var(--primery, #035AA6);
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.services-child-left {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+.services-child-left a {
+    background-color: #035AA6;
+    padding: 12px 35px;
+    text-decoration: none;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 210px;
+}
+
+.services-child-left p {
     color: var(--dark-gray, #7F7F7F);
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.services-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 60%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-box {
+    max-width: 340px;
+    background-color: #FFF;
+    padding: 27px 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.service-box a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+    color: var(--primery, #035AA6);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
     /* 105.556% */
 }
 
+.service-box h5 {
+    padding-top: 10px;
+    color: #035AA6;
+    font-family: 'Outfit', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.service-box p {
+    padding-bottom: 5px;
+    color: var(--dark-gray, #7F7F7F);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    /* 105.556% */
+}
+
+/* ================================================================contact-lable section================================ */
+
+
+.left-contact-lable {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 50%;
+    background: rgba(246, 251, 255, 0.80);
+    box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.05);
+    padding: 40px 25px;
+
+
+}
+
+.left-contact-lable p {
+    padding-bottom: 15px;
+    color: var(--dark-gray, #7F7F7F);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.left-contact-lable h3 {
+    color: var(--primery, #035AA6);
+    font-family: 'Outfit', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-contact-lable a {
+    text-decoration: none;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #035AA6;
+    padding: 12px 35px;
+    width: 210px;
+}
+
+.contact-main-lable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+
+.contact-main-lable img {
+    flex-basis: 50%;
+    width: 670px;
+    height: auto;
+}
+
+
+/* =====================================================================contact-lable end here=================================================== */
+
+
+
+.mission-vission {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    margin-bottom: 100px;
+}
+
+.mission-vission h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.mission-vission .mission-section {
+    background: #EFFAFF;
+    padding: 35px 30px;
+}
+
+
+
+.mission-vission .vission-section {
+    background: #EFFAFF;
+    padding: 35px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ================================================================product section starts here====================================== */
+
 
 .product-main-box {
     display: flex;
@@ -909,7 +1224,7 @@ header li {
 footer {
     background: var(--black, #333);
     position: relative;
-
+    padding-top: 60px;
 }
 
 
@@ -918,7 +1233,7 @@ footer .middle-footer {
     flex-direction: row;
     gap: 75px;
     padding-bottom: 30px;
-    /* padding-top: 140px; */
+
 }
 
 footer .middle-footer .footer-logo {
