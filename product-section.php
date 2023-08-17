@@ -1,142 +1,323 @@
-<section class="product-main-box side-padding page-width">
+<section class="product-main side-padding page-width">
+    <h4>Our Products</h4>
+    <h3>Products</h3>
+    <p>We are known as pioneer in terms of 3D Holographic Fan</p>
 
-    <div class="product-head-text">
+    <div class="product-sec-1">
 
-        <h4>Our Products</h4>
+        <div class="product">
+            <div class="product-info">
+                <h4>Media Players</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
+                </p>
 
-
-        <img src="./imgs/blue-line-center.png" alt="">
-        <h2>Explore Our Comprehensive Range Products</h2>
-
-
-    </div>
-
-    <div class="product-boxes hide-scroll">
-
-
-        <div class="product-boxes-child">
-            <div class="product-box">
-
-                <img src="./imgs/product-1.png" alt="">
-                <div class="product-detail">
-                    <h3><img src="./imgs/media.png" alt=""> Media Player</h3>
-                    <ul>
-
-                        <li>
-                            <p> Multimedia play </p>
-                        </li>
-                        <li>
-                            <p> Individuation </p>
-                        </li>
-                        <li>
-                            <p> High efficiency </p>
-                        </li>
-                    </ul>
-                    <a href="./products.php"> Buy Now ></a>
-                    <img class="side-abs" src="./imgs/product-side-img.png" alt="">
-
-
-                </div>
-
-
-
-
+                <a href="#">Read More<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                        fill="none">
+                        <g clip-path="url(#clip0_412_1225)">
+                            <path
+                                d="M16.8876 8.22761L13.0241 4.36403C12.8853 4.20197 12.6414 4.18308 12.4793 4.3219C12.3173 4.46068 12.2984 4.70459 12.4372 4.86665C12.4502 4.88176 12.4642 4.89587 12.4793 4.90878L15.6822 8.11555H0.386345C0.172985 8.11555 0 8.28854 0 8.50193C0 8.71532 0.172985 8.88827 0.386345 8.88827H15.6822L12.4793 12.0912C12.3173 12.2299 12.2984 12.4739 12.4372 12.6359C12.576 12.798 12.8199 12.8169 12.982 12.678C12.9971 12.6651 13.0112 12.651 13.0241 12.6359L16.8877 8.77233C17.0375 8.62169 17.0375 8.37832 16.8876 8.22761Z"
+                                fill="#035AA6" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_412_1225">
+                                <rect width="17" height="17" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
             </div>
-
-            <div class="product-box">
-
-                <img src="./imgs/product-2.png" alt="">
-                <div class="product-detail">
-                    <h3><img src="./imgs/media2.png" alt="">Signage Board</h3>
-                    <ul>
-
-                        <li>
-                            <p> Web Based Remote management</p>
-                        </li>
-                        <li>
-                            <p> Individuation </p>
-                        </li>
-                        <li>
-                            <p> High efficiency </p>
-                        </li>
-                    </ul>
-                    <a href="./products.php"> Buy Now ></a>
-
-                    <img class="side-abs" src="./imgs/product-side-img.png" alt="">
-                </div>
-
-
-
-
-            </div>
-
-            <div class="product-box">
-
-                <img src="./imgs/product-3.png" alt="">
-                <div class="product-detail">
-                    <h3><img src="./imgs/media3.png" alt="">Holograms</h3>
-                    <ul>
-
-                        <li>
-                            <p>High Definition </p>
-                        </li>
-                        <li>
-                            <p>High Brightness RGB </p>
-                        </li>
-                        <li>
-                            <p>Lifespan >30000 hours </p>
-                        </li>
-                    </ul>
-                    <a href="./products.php"> Buy Now ></a>
-                    <img class="side-abs" src="./imgs/product-side-img.png" alt="">
-
-                </div>
-
-
-
-
-            </div>
-
-
-
-
-
-
-
+            <img src="./imgs/p-1.png" alt="">
 
 
         </div>
+        <div class="product">
+            <div class="product-info">
+                <h4>Hologram 3D Displays</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
+                </p>
+
+                <a href="#">Read More<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                        fill="none">
+                        <g clip-path="url(#clip0_412_1225)">
+                            <path
+                                d="M16.8876 8.22761L13.0241 4.36403C12.8853 4.20197 12.6414 4.18308 12.4793 4.3219C12.3173 4.46068 12.2984 4.70459 12.4372 4.86665C12.4502 4.88176 12.4642 4.89587 12.4793 4.90878L15.6822 8.11555H0.386345C0.172985 8.11555 0 8.28854 0 8.50193C0 8.71532 0.172985 8.88827 0.386345 8.88827H15.6822L12.4793 12.0912C12.3173 12.2299 12.2984 12.4739 12.4372 12.6359C12.576 12.798 12.8199 12.8169 12.982 12.678C12.9971 12.6651 13.0112 12.651 13.0241 12.6359L16.8877 8.77233C17.0375 8.62169 17.0375 8.37832 16.8876 8.22761Z"
+                                fill="#035AA6" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_412_1225">
+                                <rect width="17" height="17" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+            </div>
+            <img src="./imgs/p-2.png" alt="">
+
+
+        </div>
+        <div class="product">
+            <div class="product-info">
+                <h4>Hologram 3D fan with LCD</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
+                </p>
+
+                <a href="#">Read More<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                        fill="none">
+                        <g clip-path="url(#clip0_412_1225)">
+                            <path
+                                d="M16.8876 8.22761L13.0241 4.36403C12.8853 4.20197 12.6414 4.18308 12.4793 4.3219C12.3173 4.46068 12.2984 4.70459 12.4372 4.86665C12.4502 4.88176 12.4642 4.89587 12.4793 4.90878L15.6822 8.11555H0.386345C0.172985 8.11555 0 8.28854 0 8.50193C0 8.71532 0.172985 8.88827 0.386345 8.88827H15.6822L12.4793 12.0912C12.3173 12.2299 12.2984 12.4739 12.4372 12.6359C12.576 12.798 12.8199 12.8169 12.982 12.678C12.9971 12.6651 13.0112 12.651 13.0241 12.6359L16.8877 8.77233C17.0375 8.62169 17.0375 8.37832 16.8876 8.22761Z"
+                                fill="#035AA6" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_412_1225">
+                                <rect width="17" height="17" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+            </div>
+            <img src="./imgs/p-3.png" alt="">
+
+
+        </div>
+        <div class="product">
+            <div class="product-info">
+                <h4>Accessories</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
+                </p>
+
+                <a href="#">Read More<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                        fill="none">
+                        <g clip-path="url(#clip0_412_1225)">
+                            <path
+                                d="M16.8876 8.22761L13.0241 4.36403C12.8853 4.20197 12.6414 4.18308 12.4793 4.3219C12.3173 4.46068 12.2984 4.70459 12.4372 4.86665C12.4502 4.88176 12.4642 4.89587 12.4793 4.90878L15.6822 8.11555H0.386345C0.172985 8.11555 0 8.28854 0 8.50193C0 8.71532 0.172985 8.88827 0.386345 8.88827H15.6822L12.4793 12.0912C12.3173 12.2299 12.2984 12.4739 12.4372 12.6359C12.576 12.798 12.8199 12.8169 12.982 12.678C12.9971 12.6651 13.0112 12.651 13.0241 12.6359L16.8877 8.77233C17.0375 8.62169 17.0375 8.37832 16.8876 8.22761Z"
+                                fill="#035AA6" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_412_1225">
+                                <rect width="17" height="17" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+            </div>
+            <img src="./imgs/p-4.png" alt="">
+
+
+        </div>
+
     </div>
+
+
+    <div class="product-sec-2">
+        <img src="./imgs/hologram-img.png" alt="">
+        <div class="product-details">
+            <h5>Hologram 3D Fan with 49 inch Advertising LCD Display</h5>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Diameter 50cm</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">   
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Vane Number 4LED Light quantity 512pcs</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Internal Memory 8GB</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Resolution:1080 px</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Screen size 46.5cm*46.5cm</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Voltage Adapter AC100-240V,50/60HZ Input DC 12V/3A</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Lifetime More than 30000 hrs</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Input voltage 24v</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Real-time video transmission</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Portrait display</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>File formats jpg,jpeg,png,gif,mp4,avi,rmvb, mpeg</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Display 49inch LCD display</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg> Power rating 120w</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg> 3D Hologram fan LED display WiFi app control Advertising 3D led fan for holographic Display</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Wifi 802.11b/g/n/a- Connection with APP on smart devices. Applets and PC (Available for both
+                Android and
+                IOS)</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_396_657)">
+                        <path
+                            d="M15.6686 7.48064L0.811792 0.623664C0.575226 0.516238 0.292947 0.580237 0.12838 0.78366C0.0478527 0.882195 0.00273109 1.00491 0.000244505 1.13214C-0.00224208 1.25937 0.0380503 1.38375 0.114666 1.48536L5.00026 7.99948L0.114666 14.5136C-0.0430445 14.7227 -0.0373304 15.013 0.127237 15.2153C0.238091 15.3536 0.403802 15.4279 0.571797 15.4279C0.652938 15.4279 0.734079 15.4107 0.810649 15.3753L15.6674 8.51833C15.8709 8.42462 16 8.22233 16 7.99948C16 7.77663 15.8708 7.57435 15.6686 7.48064Z"
+                            fill="#035AA6" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_396_657">
+                            <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>Display in multi-screen Support holographic interaction of multi-screen as PC extension to
+                enlarging
+                image size</p>
+        </div>
+
+
+
+    </div>
+
+
+
 
 
 
 </section>
-
-<script>
-
-    gsap.from(".product-head-text", {
-        scrollTrigger: {
-            trigger: ".product-head-text",
-            scroller: "body"
-          
-        },
-        delay: 0.5,
-        opacity: 0,
-        duration: 1,
-        x: -80
-       
-    })
-
-    gsap.from(".product-boxes-child", {
-        scrollTrigger: {
-            trigger: ".product-boxes-child",
-            scroller: "body"
-          
-        },
-        delay: 0.5,
-        opacity: 0,
-        duration: 1,
-        x:80
-       
-    })
-</script>

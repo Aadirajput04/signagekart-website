@@ -23,12 +23,14 @@
     ?>
 
 
+
     <section class="main-lable side-padding page-width">
 
 
         <div class="inner-lable">
-            <h1>About Us <img src="./imgs/white-line.png" alt="" class="white-line-2"></h1>
-            <img src="./imgs/head-lable-sm-img.png" alt="">
+            <img src="./imgs/Frame 11.png" alt="">
+            <h1>About us </h1>
+           
         </div>
 
     </section>

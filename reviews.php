@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>reviews</title>
 </head>
+
 <body transition-style="in:wipe:bottom-right">
 
     <?php
@@ -20,24 +22,24 @@
 
 
 
-
-<section class="main-lable side-padding page-width">
-
-
-<div class="inner-lable">
-    <h1>Reviews <img src="./imgs/white-line.png" alt="" class="white-line-2"></h1>
-    <img src="./imgs/head-lable-sm-img.png" alt="">
-</div>
-
-</section>
+    <section class="main-lable side-padding page-width">
 
 
+        <div class="inner-lable">
+            <img src="./imgs/Frame 11.png" alt="">
+            <h1>Reviews </h1>
+           
+        </div>
+
+    </section>
 
 
 
 
 
-<?php
+
+
+    <?php
     
     include "testimonial.php";
 
@@ -50,13 +52,14 @@
 
 
 
-<?php
+    <?php
     
     include "footer.php";
 
     ?>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </body>
+
 </html>

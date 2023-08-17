@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
 
@@ -38,7 +40,18 @@
             <a class="get-consult-home btn-ani" href="./contact-us.php">Get Quote >></a>
         </div>
 
-        <img class="side-img-hero" src="./imgs/HEROMAIN-IMG-1111111.png" alt="">
+        <div class="swiper mySwiper">
+            
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./imgs/HEROMAIN-IMG-1111111.png" alt=""></div>
+                <div class="swiper-slide"><img src="./imgs/0000000000000000000000000000000000.png" alt=""></div>
+                <div class="swiper-slide"><img src="./imgs/HEROMAIN-IMG-1111111.png" alt=""></div>
+                <div class="swiper-slide"><img src="./imgs/0000000000000000000000000000000000.png" alt=""></div>
+                <div class="swiper-slide"><img src="./imgs/HEROMAIN-IMG-1111111.png" alt=""></div>
+               
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
 
 
 
@@ -168,10 +181,23 @@
     </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
         integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
+
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 0,
+            loop:true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
 
         gsap.from(".side-img-hero", {
             delay: 0.4,

@@ -1,4 +1,4 @@
-<section class="services-main side-padding">
+<section class="services-main side-padding page-width">
 
     <div class="services-child-left">
         <h5>Our Services</h5>
