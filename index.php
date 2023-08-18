@@ -39,16 +39,16 @@
                 products.</p>
             <a class="get-consult-home btn-ani" href="./contact-us.php">Get Quote >></a>
         </div>
+        <img class="hero-side-img" src="./imgs/HEROMAIN-IMG-1111111.png" alt="">
+        <div class="swiper mySwiper custom">
 
-        <div class="swiper mySwiper">
-            
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="./imgs/HEROMAIN-IMG-1111111.png" alt=""></div>
                 <div class="swiper-slide"><img src="./imgs/0000000000000000000000000000000000.png" alt=""></div>
                 <div class="swiper-slide"><img src="./imgs/HEROMAIN-IMG-1111111.png" alt=""></div>
                 <div class="swiper-slide"><img src="./imgs/0000000000000000000000000000000000.png" alt=""></div>
                 <div class="swiper-slide"><img src="./imgs/HEROMAIN-IMG-1111111.png" alt=""></div>
-               
+
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -191,8 +191,8 @@
 
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 2,
-            spaceBetween: 0,
-            loop:true,
+            spaceBetween: 8,
+            loop: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,

@@ -37,7 +37,7 @@ function isCurrentPage($pageName)
                     us</a></li>
             <li><a <?php if (isCurrentPage('products.php')) echo 'class="active-nav"' ; ?> href="./Products.php">
                     Products</a></li>
-            <li><a <?php if (isCurrentPage('Reviews.php')) echo 'class="active-nav"' ; ?> href="./Reviewsphp">
+            <li><a <?php if (isCurrentPage('Reviews.php')) echo 'class="active-nav"' ; ?> href="./reviews.php   ">
                     Reviews</a></li>
             <li><a <?php if (isCurrentPage('contact-us.php')) echo 'class="active-nav"' ; ?> href="./contact-us.php">
                     Contact Us</a></li>
